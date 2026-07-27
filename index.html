@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>iCreateRandomApps Games</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Segoe UI",sans-serif;
+
+    background:
+    radial-gradient(circle at top,rgba(255,255,255,.8),transparent 40%),
+    linear-gradient(#eef5fd,#c7ddf5);
+
+    min-height:100vh;
+}
+
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+
+h1{
+    font-size:52px;
+    color:#22496d;
+    text-shadow:0 1px white;
+}
+
+
+.subtitle{
+    margin-top:12px;
+    color:#49647d;
+    font-size:20px;
+}
+
+
+
+.container{
+
+    width:min(1100px,95%);
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+}
+
+
+
+.card{
+
+    background:linear-gradient(
+    #ffffff,
+    #e8f2fd
+    );
+
+    border:1px solid #91b7e1;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    text-align:center;
+
+
+    box-shadow:
+    inset 0 1px white,
+    0 4px 15px rgba(0,0,0,.15);
+
+    transition:.2s;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#4d9df9;
+
+}
+
+
+
+.card img{
+
+    width:160px;
+
+    height:160px;
+
+    object-fit:contain;
+
+    border-radius:20px;
+
+}
+
+
+
+h2{
+
+    color:#20496f;
+
+    margin:15px;
+
+}
+
+
+
+p{
+
+    color:#566f86;
+
+}
+
+
+
+.button{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:10px 20px;
+
+    border-radius:7px;
+
+    background:linear-gradient(#fff,#d8ebff);
+
+    border:1px solid #80acd8;
+
+    color:#1d3550;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+
+
+.button:hover{
+
+    background:#c7e4ff;
+
+}
+
+
+
+footer{
+
+    text-align:center;
+
+    padding:40px;
+
+    color:#5b7085;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>🎮 iCreateRandomApps Games</h1>
+
+<div class="subtitle">
+My games collection
+</div>
+
+</header>
+
+
+
+<div class="container">
+
+
+
+<div class="card">
+
+<img src="Crossy.png">
+
+<h2>Crossy Road</h2>
+
+<p>
+Cross the road and avoid traffic!
+</p>
+
+<a class="button" href="crossyroad.html">
+Play
+</a>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="minecraft.png">
+
+<h2>Minecraft</h2>
+
+<p>
+Mine, and craft, Duh.
+</p>
+
+<a class="button" href="https://icreaterandomapps.github.io/Mlnecraft">
+Play
+</a>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="pou.png">
+
+<h2>Pou</h2>
+
+<p>
+Take care of your virtual pet.
+</p>
+
+<a class="button" href="pou.html">
+Play
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<footer>
+
+© 2026 iCreateRandomApps Games
+
+</footer>
+
+
+</body>
+</html>
